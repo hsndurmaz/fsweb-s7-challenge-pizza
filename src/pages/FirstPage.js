@@ -1,40 +1,32 @@
 import React from "react";
-import OrderPage from "./OrderPage";
+import "../App.css";
 import { Link } from "react-router-dom";
+
 const FirstPage = () => {
   return (
-    <div className="AnaSayfa" style={{ color: "white" }}>
-      <div className="ty">
-        {" "}
-        <h1>Teknolojik Yemekler</h1>
+    <div className="anasayfa">
+      <div>
+        <h1 className="Fbaslik">Teknolojik Yemekler</h1>
       </div>
       <br></br>
       <br></br>
       <div className="ty2">
         {" "}
-        <p>
-          KOD ACIKTIRIR<br></br>PİZZA,DOYURUR
-        </p>
+        KOD ACIKTIRIR<br></br>PİZZA,DOYURUR
       </div>
       <br></br>
-
       <div>
         {" "}
         <nav>
-          <ul>
-            <li>
-              <Link to="/FirstPage">Acıktım</Link>
-            </li>
-          </ul>
+          <Link to="/OrderPage">
+            <button className="buton">Acıktım</button>
+          </Link>
         </nav>
-        <button className="buton" id="OrderPage" onClick={OrderPage}>
-          ACIKTIM
-        </button>
       </div>
       <div>
         <br></br>
-        <br></br>
         <img
+          className="img"
           src={require("../Assets/adv-aseets/adv-form-banner.png")}
           alt="Pizza"
           style={{ transform: "rotate(180deg)" }}

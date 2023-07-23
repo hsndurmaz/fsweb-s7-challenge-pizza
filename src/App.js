@@ -1,18 +1,16 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import FirstPage from "./pages/FirstPage";
 import OrderPage from "./pages/OrderPage";
-
+import Onay from "./pages/Onay";
 const App = () => {
   return (
-    <div>
-      <Route path="/FirstPage">
-        <FirstPage />
-      </Route>
-      <Route path="/OrderPage">
-        <OrderPage />
-      </Route>
-    </div>
+    <Routes>
+      <Route path="/" element={<FirstPage />} />
+      <Route path="/OrderPage" element={<OrderPage />} />
+      <Route path="/Onay" element={<Onay />} />
+    </Routes>
   );
 };
 

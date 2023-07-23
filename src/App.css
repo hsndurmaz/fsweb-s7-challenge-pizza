@@ -1,38 +1,211 @@
-.App {
+.anasayfa {
+  color: white;
+  background-color: #ce2829;
+  text-align: center;
+  flex-direction: column;
+}
+.Fbaslik {
+  margin-block-start: 0;
+  padding-top: 3rem;
+  font-size: 2rem;
+  background-color: #ce2829;
+}
+.ty2 {
+  font-size: 3rem;
+}
+
+.buton {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: #fdc913;
+  font-size: 1rem;
+  border-style: hidden;
+}
+
+Header {
+  background-color: #ce2829;
+  margin: 0%;
+  margin-top: 0;
+  height: 150px;
+  color: white;
+}
+.ty {
+  margin-block-start: 0;
+  padding-top: 2.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  color: #5f5f5f;
+  font-size: 14px;
+}
+h3,
+h2 {
+  color: #292929;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.baslik {
+  max-width: 500px;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+}
+
+.hamur {
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  gap: 10rem;
+}
+.boyut {
+  font-size: 12px;
+}
+.hamurseç {
+  font-size: 12px;
+}
+form {
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+.bölümler {
+  display: flex;
+
+  gap: 2rem;
+}
+.baş {
+  font-size: 12px;
+}
+.baş2 {
+  font-size: 10px;
+}
+.pizzaa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fiyat p {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.fiyat {
+  flex-basis: 50%;
+}
+
+.foot {
+  display: flex;
+  max-width: 550px;
+  margin: 20px auto;
+  padding: 30px 0;
+  border-top: 0.5px solid #aeaaaa;
+}
+
+.adet {
+  flex-basis: 25%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.foot button {
+  background-color: #fdc913;
+  border: none;
+  height: 40px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.adet button {
+  width: 40px;
+  border-radius: 5px;
+}
+.adet p {
+  width: 30px;
+  vertical-align: middle;
+  border-top: 1px solid #e3e0e0;
+  border-bottom: 1px solid #e3e0e0;
+  height: 40px;
+  margin: 0;
+  padding: 8px;
+}
+
+.siparisTop {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  flex-basis: 75%;
+  border: 1px solid #e3e0e0;
+  border-radius: 5px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+}
+
+.siparisTop p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: 0.5rem;
+}
+.siparisTop h3 {
+  padding: 20px 0 0 40px;
+}
+
+.secimler {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  width: 80%;
+}
+
+.toplam {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  width: 80%;
+}
+
+.siparisTop a {
+  text-decoration: none;
+  color: #292929;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text {
+  margin-top: 200px;
+}
+
+.onay {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ce2829;
+}
+.başlık {
+  margin-top: 0rem;
+  padding-top: 4rem;
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.onay p {
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 60px;
+  font-weight: 200;
 }
